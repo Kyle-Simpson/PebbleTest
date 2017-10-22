@@ -1,3 +1,2 @@
-simply.on('singleClick', function(e) {
-  simply.subtitle('That's the ' + e.button + 'button!);
-});
+Pebble.showSimpleNotificationOnPebble('Hello!',
+  'Notifications from JavaScript? Welcome to the future!');
